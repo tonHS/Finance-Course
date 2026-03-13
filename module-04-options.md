@@ -1,13 +1,13 @@
 # Module 04 — Options Trading: The Smart Way
 
-**Duration:** Week 8–10 | ~4 hours total  
+**Duration:** Week 8–10 | ~4 hours total
 **Goal:** Understand how options work. Use them to enhance gains without blowing up your account.
 
 ---
 
 ## WARNING — Read This First
 
-Options are powerful tools that can 10x your money — or wipe out your account in a week. This module teaches conservative, high-probability use of options for a small account. Do not attempt options trading before completing Modules 01 through 03.
+Options are powerful tools that can 10x your money — or wipe out your account in a week. This module teaches conservative, high-probability use of options for a smaller account. Do not attempt options trading before completing Modules 01 through 03.
 
 ---
 
@@ -58,7 +58,7 @@ Scenario: You believe stock ABC, currently trading at $50, will rise to $60 in t
 
 ---
 
-## 4.4 Two Strategies for a Small Account
+## 4.4 Two Strategies for Your Account Size
 
 ### Strategy 1: Long Calls on Stocks You Believe In
 
@@ -66,7 +66,7 @@ If you have completed the research from Modules 02 and 03 and believe a stock wi
 
 **Rules for this strategy:**
 - Only buy options with **at least 30 days to expiry**. Never buy weekly options with a small account — theta decay will destroy your position before the stock can move.
-- Only spend **10–15% of your account on any single options trade** ($75–$112 maximum per trade with a $750 account).
+- Only spend **10–15% of your active trading capital on any single options trade**.
 - Buy options that are **slightly out of the money or at the money** — not deep OTM lottery tickets.
 - Have a clear exit plan before buying: what is your profit target and what is your stop loss?
 
@@ -82,29 +82,46 @@ If you own 100 shares of a stock, you can sell a call option against those share
 
 The tradeoff: You cap your upside at the strike price. If the stock goes to $15, you still only sell at $8.
 
-**Note:** Covered calls require a Margin account on Questrade even though no margin is actually being used.
+**Relevance to your portfolio:** With positions in the $100–300 range, you do not own 100 shares of most stocks. Covered calls become available as your positions grow to 100+ share lots. Keep this strategy in mind for when you get there.
+
+**Note:** Covered calls require a Margin account even though no margin is actually being used.
 
 ---
 
-## 4.5 Setting Up Options on Questrade
+## 4.5 Options and Your Platform Choice
 
-1. Navigate to: Account Management → Trading Permissions → Options.
-2. Apply for **Level 1** (covered calls and cash-secured puts) and **Level 2** (long puts and calls).
-3. Approval typically takes 1–2 business days.
-4. Practice first using Questrade's paper trading simulator before risking real money.
+### Wealthsimple
+- Options trading is available.
+- No per-contract commission on Canadian options.
+- For US options, the 1.5% FX fee applies (unless you have Plus).
+- Interface is simple — good for learning.
+
+### Questrade
+- $9.95 + $1.00 per contract per leg.
+- A single options trade (open + close) = approximately $21.90 in fees for one contract.
+- If you spend $100 on an option, you need a 22% gain just to break even after fees.
+- More powerful options chain display and order types.
+
+### Interactive Brokers
+- $1.00–$1.50 per contract per leg. A round-trip costs ~$3–$5.
+- By far the cheapest for options trading.
+- If you plan to trade options regularly, the fee savings add up fast.
+
+**Bottom line:** For learning and occasional options trades, Wealthsimple or Questrade are fine. If you find that options become a significant part of your strategy, consider IBKR for the fee savings.
 
 ---
 
-## 4.6 Options and Fees — The Math Matters
+## 4.6 Options Fee Math — Know Your Hurdle Rate
 
-On Questrade: $9.95 + $1.00 per contract per leg.
+Before placing any options trade, calculate the fee impact:
 
-A single options trade (open + close) = approximately $21.90 in fees for one contract.
+| Platform | Round-trip cost (1 contract) | Fee as % of $100 trade | Fee as % of $200 trade |
+|----------|-------|----------------|----------------|
+| Wealthsimple (CAD) | ~$0 | 0% | 0% |
+| Questrade | ~$22 | 22% | 11% |
+| IBKR | ~$3 | 3% | 1.5% |
 
-If you spend $100 on an option, you need a 22% gain just to break even after fees. This is why:
-- You must be high-conviction before entering an options trade.
-- Buying and selling options frequently on a small account is a losing strategy.
-- Consider holding winning options through expiry or until the gain significantly exceeds fees.
+On Questrade, a $100 options trade requires a 22% return just to break even. Trade selectively.
 
 ---
 
@@ -112,11 +129,11 @@ If you spend $100 on an option, you need a 22% gain just to break even after fee
 
 Before moving to Module 05, complete the following:
 
-- [ ] Apply for options Level 1 and Level 2 permissions on Questrade.
-- [ ] Pull up the options chain for one of your researched stocks on Yahoo Finance (Ticker → Options tab).
+- [ ] Ensure you have options trading permissions on your chosen platform. Apply if needed.
+- [ ] Pull up the options chain for LSPD (or one of your researched stocks) on Yahoo Finance (Ticker → Options tab).
 - [ ] Find a call option 45–60 days to expiry, with a strike approximately 5% above the current price.
 - [ ] Record in `progress-tracker.md`: the stock price, the strike, the expiry, the premium, and what the stock would need to do for you to profit.
-- [ ] Calculate the total cost including Questrade fees. Is the trade still worth it at that size?
+- [ ] Calculate the total cost including your platform's fees. Is the trade still worth it at that size?
 - [ ] Do not buy yet. This is analysis only.
 
 ---
@@ -126,4 +143,3 @@ Before moving to Module 05, complete the following:
 - YouTube: "Options Trading for Beginners" — Sky View Trading (~30 min)
 - YouTube: "Covered Call Strategy Explained" — InTheMoney (~20 min)
 - YouTube: "The Greeks Explained Simply" — Options Alpha (~18 min)
-- Practice environment: Questrade paper trading (papertrading.questrade.com)
