@@ -1,6 +1,6 @@
 # Module 03 — Spotting Trends & Timing Your Entries
 
-**Duration:** Week 5–7 | ~3 hours total  
+**Duration:** Week 5–7 | ~3 hours total
 **Goal:** Read a price chart. Identify a good entry point. Stop buying at the top.
 
 ---
@@ -12,6 +12,8 @@ Price charts are not magic. They reflect human behavior — fear, greed, and mom
 - Buy when others are fearful (good prices)
 - Avoid chasing stocks that have already run up 30–50%
 - Set logical exit points before you enter a trade
+
+**Practical application:** Before adding to any of your positions (XEQT, VFV, LSPD, BTC) or buying something new, check the chart first. This module teaches you how.
 
 ---
 
@@ -45,6 +47,8 @@ Every candlestick represents one time period (day, hour, week — you choose).
 
 **How to find them:** Look at a 6-month or 1-year chart. Find price levels where the stock has bounced or reversed multiple times. Those are your support and resistance zones.
 
+**Try it on your holdings:** Pull up LSPD on a 1-year chart. Where has the price bounced repeatedly? Where has it stalled? Those levels tell you where other investors are making decisions.
+
 ---
 
 ## 3.4 Trend Direction — Trade With It, Not Against It
@@ -68,7 +72,7 @@ A moving average smooths out price noise by averaging the closing price over N d
 - **50-day MA:** Medium-term trend. Price above = bullish.
 - **200-day MA:** Long-term trend. Price above = strongly bullish. Price crossing below = major warning.
 
-**Golden Cross:** The 50-day MA crosses above the 200-day MA. Historically a strong bullish signal.  
+**Golden Cross:** The 50-day MA crosses above the 200-day MA. Historically a strong bullish signal.
 **Death Cross:** The 50-day MA crosses below the 200-day MA. Historically a bearish warning.
 
 ### RSI — Relative Strength Index
@@ -97,7 +101,7 @@ You do not need to understand the math. Learn to read the signal.
 
 ## 3.6 Entry and Exit Rules — Plan Before You Buy
 
-One of the most common beginner mistakes is having no plan before entering a trade. Before every single trade, answer these four questions in writing:
+One of the most common mistakes is having no plan before entering a trade. Before every single trade, answer these four questions in writing:
 
 1. **Why am I buying this?** (Your thesis — what has to happen for this trade to work?)
 2. **At what price does my thesis break?** (Your stop loss — where you exit if wrong.)
@@ -110,27 +114,37 @@ Write these down in `progress-tracker.md` before placing the order. This is not 
 
 ## 3.7 The 2% Rule — Protecting Your Capital
 
-Never risk more than 2% of your total account on a single trade.
+Never risk more than 2% of your total portfolio on a single trade.
 
-**With $750, that is $15 of maximum loss per trade.**
+**Example:** If your total portfolio across all accounts is $2,000, your maximum loss per trade is $40.
 
 **How to calculate position size:**
 1. Decide your entry price. (Example: $10.00)
 2. Decide your stop loss price. (Example: $9.50)
 3. Risk per share = $10.00 - $9.50 = $0.50
-4. Max shares = $15 ÷ $0.50 = 30 shares
-5. Total position = 30 × $10.00 = $300
+4. Max shares = $40 ÷ $0.50 = 80 shares
+5. Total position = 80 × $10.00 = $800
 
 This keeps you in the game long enough to learn and improve.
 
 ---
 
-## 3.8 Free Charting Tools
+## 3.8 Applying This to Your Existing Positions
+
+You already hold LSPD, XEQT, VFV, and BTC. Use this module to retroactively analyze them:
+
+- **LSPD:** Pull up the 1-year chart. What trend is it in? Where is support? If it breaks below support, what is your exit plan? If you had applied the 4-question entry framework before buying, what would you have written?
+- **XEQT / VFV:** These are long-term holds, so daily charts matter less. But checking the 50-day and 200-day MAs can tell you if the broad market is healthy.
+- **BTC:** Crypto charts are volatile. Look at the weekly chart (not daily) for trend direction. RSI on the weekly chart is more meaningful for BTC than on the daily.
+
+---
+
+## 3.9 Free Charting Tools
 
 | Tool | Notes |
 |------|-------|
 | **TradingView.com** | The gold standard. Free tier is excellent. Set up watchlists, alerts, draw support/resistance lines. Use this daily. |
-| **Questrade built-in charts** | Basic but accessible directly in your account. Good for a quick check. |
+| **Wealthsimple app charts** | Basic but accessible. Good for a quick check on mobile. |
 | **Yahoo Finance charts** | Good for a quick look at moving averages and 52-week range. |
 
 ---
@@ -139,12 +153,13 @@ This keeps you in the game long enough to learn and improve.
 
 Before moving to Module 04, complete the following:
 
-- [ ] Open TradingView and pull up the 3 stocks you researched in Module 02.
+- [ ] Open TradingView and pull up LSPD, plus the 2 stocks you researched in Module 02.
 - [ ] Add the 50-day and 200-day moving averages to each chart (Indicators → Moving Average).
-- [ ] For each stock: Is the price above or below both MAs? Is it in a uptrend, downtrend, or sideways?
+- [ ] For each stock: Is the price above or below both MAs? Is it in an uptrend, downtrend, or sideways?
 - [ ] Check the RSI for each. Is any of them below 30 (oversold)?
 - [ ] Find one support level on each chart and draw a horizontal line at that level.
-- [ ] Write your observations in `progress-tracker.md`. Still no buying yet.
+- [ ] For LSPD specifically: Write a retroactive entry plan using the 4-question framework. If you were buying it today, would you? At what price? Record in `progress-tracker.md`.
+- [ ] Pull up BTC on TradingView (use the weekly chart). What trend is it in? Record your observation.
 
 ---
 
